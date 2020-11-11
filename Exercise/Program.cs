@@ -28,7 +28,7 @@ namespace Delegate
             Calculator c1 = new Calculator();//클래스 생성
             
             //static으로 관리하기도 하지만.. 프로젝트를 직접 수행하게 되면  static은 지양하므로 class 를 직접만들어줘서 사용하는걸 권장한다.
-            Mydel1 del1 = new Mydel1(c1.sum);//함수포인터와 같은 역할을 수행 c1.sum() 을  del1 이 대신 수행함
+            Mydel1 del1 = new Mydel1(c1.sum);//함수포인터와 같은 역할을 수행 c1.sum() 을  del1 이 대신 수행한다고 할수 있다.
 
             Console.WriteLine(del1(10, 20));
         }
