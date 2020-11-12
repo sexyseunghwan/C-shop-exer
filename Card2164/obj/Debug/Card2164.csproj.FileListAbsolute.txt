@@ -1,0 +1,7 @@
+C:\Users\신승환\Desktop\C#\Card2164\bin\Debug\Card2164.exe.config
+C:\Users\신승환\Desktop\C#\Card2164\bin\Debug\Card2164.exe
+C:\Users\신승환\Desktop\C#\Card2164\bin\Debug\Card2164.pdb
+C:\Users\신승환\Desktop\C#\Card2164\obj\Debug\Card2164.csprojAssemblyReference.cache
+C:\Users\신승환\Desktop\C#\Card2164\obj\Debug\Card2164.csproj.CoreCompileInputs.cache
+C:\Users\신승환\Desktop\C#\Card2164\obj\Debug\Card2164.exe
+C:\Users\신승환\Desktop\C#\Card2164\obj\Debug\Card2164.pdb

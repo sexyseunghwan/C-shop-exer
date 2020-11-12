@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmCshop", "AlgorithmCshop.csproj", "{C5784A42-16AB-4FA8-A784-D56D2B64D85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card2164", "..\Card2164\Card2164.csproj", "{6635F9A2-7888-47B6-B6D9-3F70E9B4C2E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5784A42-16AB-4FA8-A784-D56D2B64D85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5784A42-16AB-4FA8-A784-D56D2B64D85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5784A42-16AB-4FA8-A784-D56D2B64D85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5784A42-16AB-4FA8-A784-D56D2B64D85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6635F9A2-7888-47B6-B6D9-3F70E9B4C2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6635F9A2-7888-47B6-B6D9-3F70E9B4C2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6635F9A2-7888-47B6-B6D9-3F70E9B4C2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6635F9A2-7888-47B6-B6D9-3F70E9B4C2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1459A87F-34A0-4ED6-84A2-77E2607240B5}
+	EndGlobalSection
+EndGlobal
