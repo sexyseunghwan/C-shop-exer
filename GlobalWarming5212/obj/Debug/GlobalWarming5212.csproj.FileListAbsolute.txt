@@ -1,0 +1,7 @@
+C:\Users\신승환\Desktop\C#\GlobalWarming5212\bin\Debug\GlobalWarming5212.exe.config
+C:\Users\신승환\Desktop\C#\GlobalWarming5212\bin\Debug\GlobalWarming5212.exe
+C:\Users\신승환\Desktop\C#\GlobalWarming5212\bin\Debug\GlobalWarming5212.pdb
+C:\Users\신승환\Desktop\C#\GlobalWarming5212\obj\Debug\GlobalWarming5212.csprojAssemblyReference.cache
+C:\Users\신승환\Desktop\C#\GlobalWarming5212\obj\Debug\GlobalWarming5212.csproj.CoreCompileInputs.cache
+C:\Users\신승환\Desktop\C#\GlobalWarming5212\obj\Debug\GlobalWarming5212.exe
+C:\Users\신승환\Desktop\C#\GlobalWarming5212\obj\Debug\GlobalWarming5212.pdb

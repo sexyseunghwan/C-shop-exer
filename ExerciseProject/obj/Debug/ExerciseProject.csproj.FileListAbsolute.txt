@@ -1,0 +1,7 @@
+C:\Users\신승환\Desktop\C#\ExerciseProject\bin\Debug\ExerciseProject.exe.config
+C:\Users\신승환\Desktop\C#\ExerciseProject\bin\Debug\ExerciseProject.exe
+C:\Users\신승환\Desktop\C#\ExerciseProject\bin\Debug\ExerciseProject.pdb
+C:\Users\신승환\Desktop\C#\ExerciseProject\obj\Debug\ExerciseProject.csprojAssemblyReference.cache
+C:\Users\신승환\Desktop\C#\ExerciseProject\obj\Debug\ExerciseProject.csproj.CoreCompileInputs.cache
+C:\Users\신승환\Desktop\C#\ExerciseProject\obj\Debug\ExerciseProject.exe
+C:\Users\신승환\Desktop\C#\ExerciseProject\obj\Debug\ExerciseProject.pdb
