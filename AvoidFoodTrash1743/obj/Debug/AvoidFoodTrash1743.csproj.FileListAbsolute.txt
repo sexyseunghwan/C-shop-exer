@@ -1,0 +1,7 @@
+C:\Users\신승환\Desktop\C#\AvoidFoodTrash1743\bin\Debug\AvoidFoodTrash1743.exe.config
+C:\Users\신승환\Desktop\C#\AvoidFoodTrash1743\bin\Debug\AvoidFoodTrash1743.exe
+C:\Users\신승환\Desktop\C#\AvoidFoodTrash1743\bin\Debug\AvoidFoodTrash1743.pdb
+C:\Users\신승환\Desktop\C#\AvoidFoodTrash1743\obj\Debug\AvoidFoodTrash1743.csprojAssemblyReference.cache
+C:\Users\신승환\Desktop\C#\AvoidFoodTrash1743\obj\Debug\AvoidFoodTrash1743.csproj.CoreCompileInputs.cache
+C:\Users\신승환\Desktop\C#\AvoidFoodTrash1743\obj\Debug\AvoidFoodTrash1743.exe
+C:\Users\신승환\Desktop\C#\AvoidFoodTrash1743\obj\Debug\AvoidFoodTrash1743.pdb

@@ -65,8 +65,7 @@ namespace GlobalWarming5212
                 Console.WriteLine();
             }
 
-			//Console.ReadLine();
-			//런타임 에러가 왜 나는지 모르곘는데 진짜 짜증난다
+			
         }
 
 		static int answerCheckAsc(int index1, int index2, int select)
