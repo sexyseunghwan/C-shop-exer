@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseProject", "..\Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvoidFoodTrash1743", "..\AvoidFoodTrash1743\AvoidFoodTrash1743.csproj", "{E2AA5EBC-2DCC-4C32-A199-7B112127F52B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qoo10Work", "..\Qoo10Work\Qoo10Work.csproj", "{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{E2AA5EBC-2DCC-4C32-A199-7B112127F52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AA5EBC-2DCC-4C32-A199-7B112127F52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AA5EBC-2DCC-4C32-A199-7B112127F52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
