@@ -13,7 +13,7 @@ namespace Qoo10Work
 		//스테이징에 존재하는 테이블의 정보를 빼오는것
 		public List<String[]> getStaging()
         {   
-            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\test\app.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\test\staging.txt");
 
             String line = null;
 
@@ -63,11 +63,11 @@ namespace Qoo10Work
 
 			}//while
             return staging;
-        }
+		}//getStaging()
 
 		//staging 테이블 가공작업 -> ERD 테이블의 정보와 비교가능하게끔 바꿔준다.
-		public List<String[]> getStagingUpgrade(List<String[]> stgErd)
-        {
+		public List<String[]> getStagingUpgrade(List<String[]> stgErd) 
+		{
 
 			List<String[]> stgNewArr = new List<String[]>();//새롭게 바뀔 리스트
 
@@ -75,13 +75,13 @@ namespace Qoo10Work
 			{
 
 				String[] stgArr = new String[3];//컬럼이름,형(크기),nullable
-				String[] oldTbl = stgErd.[i];//기존 테이블 컬럼 원소집합
+				String[] oldTbl = stgErd[i];//기존 테이블 컬럼 원소집합
 
 
-				String name = oldTbl[0].toLowerCase().trim();//컬럼 이름
-				String type = oldTbl[1].toLowerCase().trim();//타입
-				String size = oldTbl[2].toLowerCase().trim();//컬럼 사이즈
-				String nullable = oldTbl[3].toLowerCase().trim();//null 허용 유무
+				String name = oldTbl[0].ToLower().Trim();//컬럼 이름
+				String type = oldTbl[1].ToLower().Trim();//타입
+				String size = oldTbl[2].ToLower().Trim();//컬럼 사이즈
+				String nullable = oldTbl[3].ToLower().Trim();//null 허용 유무
 
 				String typeSize = "";//새롭게 집어넣을 것이다.
 
@@ -101,7 +101,7 @@ namespace Qoo10Work
 						if (type.Contains("n"))
 						{
 							//유니코드 문자열일 경우에 -> 나누기 2를 해줄것이다.
-							int sizeComp = Integer.parseInt(size) / 2;
+							int sizeComp = Int32.Parse(size) / 2;
 
 							typeSize = type + "(" + sizeComp + ")";
 						}
@@ -123,13 +123,73 @@ namespace Qoo10Work
 				stgArr[1] = typeSize;
 				stgArr[2] = nullable;
 
-				stgNewArr.add(stgArr);
+				stgNewArr.Add(stgArr);
 
 
 			}//for
 
+			return stgNewArr;
+
+		}//getStagingUpgrade()
+
+		//ERD 에 존재하는 테이블 정보
+		public List<String[]> getErd()
+        {
+			System.IO.StreamReader readerErd = new System.IO.StreamReader(@"C:\test\erd.txt");
+
+			String line = null;
+
+			List<String[]> erdArr = new List<String[]>();
+
+			String[] inputErd = new String[3];//이름,형(크기),null 유무
+			int indexErd = 0;
+
+			while ((line = readerErd.ReadLine()) != null)
+            {
+				
+				line = line.ToLower().Trim();
+
+				if (indexErd == 2)
+                {
+					if (line.Equals("not null") || line.Equals("identity"))
+                    {
+						inputErd[indexErd] = "no";
+                    } else
+                    {
+						inputErd[indexErd] = "yes";
+					}
+
+					erdArr.Add(inputErd);
+					indexErd = 0;
+					inputErd = new String[3];
+
+                } else
+                {
+					inputErd[indexErd] = line;
+					indexErd++;
+                }
+
+			}//while
+
+			return erdArr;
 		}
 
+		//각 테이블의 정보를 확인시켜주는 메소드
+		public void tableCheck(List<String[]> inputArr)
+        {
+			int outLength = inputArr.Count;//전체 크기
+			int innerLength = inputArr[0].Length;// 한 요소의 크기
+
+
+			for (int i = 0; i < outLength; i++)
+			{
+				for (int j = 0; j < innerLength; j++)
+				{
+					System.Console.Write(inputArr[i][j] + " ");
+				}
+				System.Console.WriteLine();
+			}
+		}
 
 
 	}

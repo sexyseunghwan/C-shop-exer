@@ -11,27 +11,25 @@ namespace Qoo10Work
         static void Main(string[] args)
         {
 
-            TableCompare tc = new TableCompare();
+			TableCompare tc = new TableCompare();
 
-            //List<String[]> stagingTable = tc.getStaging();//스테이징에 존재하는 테이블 정보
-            //List<String[]> erdTable = tc.getErd();
-            //List<String[]> stagingTableUp = tc.getStagingUpgrade(stagingTable);
+			List<String[]> stagingTable = tc.getStaging();//스테이징에 존재하는 테이블 정보
+			List<String[]> erdTable = tc.getErd();
+			List<String[]> stagingTableUp = tc.getStagingUpgrade(stagingTable);
 
-            List<String[]> test = tc.getStaging();
+			//확인용
+			tc.tableCheck(stagingTableUp);
+			//tc.tableCheck(stagingTable);
+			System.Console.WriteLine("============");
+			tc.tableCheck(erdTable);
 
-            for (int i = 0; i < test.Count; i++)
-            {
-                for (int j = 0; j < test[i].Length; j++)
-                {
-                    Console.Write(test[i][j] + " ");
-                }
-                Console.WriteLine();
-            }
+			System.Console.WriteLine("++++++++++++++++++++++++++++++++");
 
+			//비교
+			ComparisonTable cst = new ComparisonTable();
+			cst.comparisonTable(stagingTableUp, erdTable);
 
-
-
-            Console.ReadLine();
+			Console.ReadLine();
         }
     }
 }
