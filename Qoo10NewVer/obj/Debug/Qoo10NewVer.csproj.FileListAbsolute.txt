@@ -1,0 +1,7 @@
+C:\Users\신승환\Desktop\C#\Qoo10NewVer\bin\Debug\Qoo10NewVer.exe.config
+C:\Users\신승환\Desktop\C#\Qoo10NewVer\bin\Debug\Qoo10NewVer.exe
+C:\Users\신승환\Desktop\C#\Qoo10NewVer\bin\Debug\Qoo10NewVer.pdb
+C:\Users\신승환\Desktop\C#\Qoo10NewVer\obj\Debug\Qoo10NewVer.csprojAssemblyReference.cache
+C:\Users\신승환\Desktop\C#\Qoo10NewVer\obj\Debug\Qoo10NewVer.csproj.CoreCompileInputs.cache
+C:\Users\신승환\Desktop\C#\Qoo10NewVer\obj\Debug\Qoo10NewVer.exe
+C:\Users\신승환\Desktop\C#\Qoo10NewVer\obj\Debug\Qoo10NewVer.pdb

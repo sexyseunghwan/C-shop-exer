@@ -1,0 +1,7 @@
+C:\Users\신승환\Desktop\C#\AlgorithmCshop\bin\Debug\AlgorithmCshop.exe.config
+C:\Users\신승환\Desktop\C#\AlgorithmCshop\bin\Debug\AlgorithmCshop.exe
+C:\Users\신승환\Desktop\C#\AlgorithmCshop\bin\Debug\AlgorithmCshop.pdb
+C:\Users\신승환\Desktop\C#\AlgorithmCshop\obj\Debug\AlgorithmCshop.csprojAssemblyReference.cache
+C:\Users\신승환\Desktop\C#\AlgorithmCshop\obj\Debug\AlgorithmCshop.csproj.CoreCompileInputs.cache
+C:\Users\신승환\Desktop\C#\AlgorithmCshop\obj\Debug\AlgorithmCshop.exe
+C:\Users\신승환\Desktop\C#\AlgorithmCshop\obj\Debug\AlgorithmCshop.pdb

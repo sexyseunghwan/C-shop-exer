@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvoidFoodTrash1743", "..\Av
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qoo10Work", "..\Qoo10Work\Qoo10Work.csproj", "{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qoo10NewVer", "..\Qoo10NewVer\Qoo10NewVer.csproj", "{049DAC99-EB47-4339-B7F1-BD5F1953FE0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B27DC07-2074-45A2-AE62-C4F7763FE1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049DAC99-EB47-4339-B7F1-BD5F1953FE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049DAC99-EB47-4339-B7F1-BD5F1953FE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049DAC99-EB47-4339-B7F1-BD5F1953FE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049DAC99-EB47-4339-B7F1-BD5F1953FE0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
