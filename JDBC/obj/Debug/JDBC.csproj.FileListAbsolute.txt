@@ -1,0 +1,7 @@
+C:\Users\신승환\Desktop\C#\JDBC\bin\Debug\JDBC.exe.config
+C:\Users\신승환\Desktop\C#\JDBC\bin\Debug\JDBC.exe
+C:\Users\신승환\Desktop\C#\JDBC\bin\Debug\JDBC.pdb
+C:\Users\신승환\Desktop\C#\JDBC\obj\Debug\JDBC.csprojAssemblyReference.cache
+C:\Users\신승환\Desktop\C#\JDBC\obj\Debug\JDBC.csproj.CoreCompileInputs.cache
+C:\Users\신승환\Desktop\C#\JDBC\obj\Debug\JDBC.exe
+C:\Users\신승환\Desktop\C#\JDBC\obj\Debug\JDBC.pdb
