@@ -13,12 +13,15 @@ namespace JDBC
     {
         static void Main(string[] args)
         {
+
+            //Console.WriteLine("asd");
+
             DBUTIL util = new DBUTIL();
             SqlConnection conn = null;
 
             try
             {
-                conn = util.open("localhost","ADMIN","sa","java1234");
+                conn = util.open("192.168.35.93", "11289", "ADMIN","byeanma","java1234");
 
                 //SqlCommand scom = new SqlCommand();
 
@@ -48,6 +51,7 @@ namespace JDBC
                 while (sdr.Read())
                 {
                     Console.WriteLine("이름 : {0} 부서 : {1} 직위 : {2}", sdr["name"].ToString(), sdr["buseo"].ToString(), sdr["jikwi"].ToString());
+                    
                 }
 
                 //뭐 이정도는 쉬운데
