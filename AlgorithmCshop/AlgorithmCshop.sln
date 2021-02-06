@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qoo10NewVer", "..\Qoo10NewV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JDBC", "..\JDBC\JDBC.csproj", "{5A1E6C02-52B6-4EA3-9B63-B5D04BAD9B71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollingQueue1021-1", "..\RollingQueue1021-1\RollingQueue1021-1.csproj", "{D53CF169-D7CA-40F8-BC9C-AA897EA320AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5A1E6C02-52B6-4EA3-9B63-B5D04BAD9B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A1E6C02-52B6-4EA3-9B63-B5D04BAD9B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A1E6C02-52B6-4EA3-9B63-B5D04BAD9B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53CF169-D7CA-40F8-BC9C-AA897EA320AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53CF169-D7CA-40F8-BC9C-AA897EA320AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53CF169-D7CA-40F8-BC9C-AA897EA320AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53CF169-D7CA-40F8-BC9C-AA897EA320AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
