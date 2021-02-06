@@ -11,9 +11,9 @@ namespace JDBC
     {
         private SqlConnection conn;
 
-        public SqlConnection open(String host, String db, String id, String pw)
+        public SqlConnection open(String host,String port, String db, String id, String pw)
         {
-            String ConnectionString = "Server=" + host + ",8095;database=" + db + ";uid=" + id + ";pwd=" + pw + ";";
+            String ConnectionString = "Server=" + host + "," + port +";database=" + db + ";uid=" + id + ";pwd=" + pw + ";";
             try
             {
                 SqlConnection conn = new SqlConnection();
