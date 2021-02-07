@@ -4,3 +4,4 @@ C:\Users\신승환\Desktop\C#\Exercise\bin\Debug\Exercise.pdb
 C:\Users\신승환\Desktop\C#\Exercise\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
 C:\Users\신승환\Desktop\C#\Exercise\obj\Debug\Exercise.exe
 C:\Users\신승환\Desktop\C#\Exercise\obj\Debug\Exercise.pdb
+C:\Users\신승환\Desktop\C#\Exercise\obj\Debug\Delegate.csprojAssemblyReference.cache

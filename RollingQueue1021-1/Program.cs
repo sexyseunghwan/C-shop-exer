@@ -12,39 +12,20 @@ namespace RollingQueue1021
 
 		private List<T> queueList = new List<T>();//Queue 생성시킴
 
-		//enqueue 의 역할을 수행한다.
-		//public void enQueue(T obj)
-		//{
-		//	queueList.Add(obj);
-		//}
-
-		//dequeue 의 역할을 수행한다.
-		//public T deQueue()
-		//{
-		//	T t = queueList[0];
-		//	queueList.RemoveAt(0);
-		//	return t;
-		//}
-
-		//왼쪽 시프트
-		public void leftShift()
+        //왼쪽 시프트
+        public void leftShift()
         {
-			T picked = queueList[0];
+			T picked = queueList[0];//여기 문제
 			queueList.RemoveAt(0);
 			queueList.Add(picked);
 		}
 
 		public void rightShift()
-        {
-			T picked = queueList[queueList.Count - 1];
-			
-			for (int i = queueList.Count-2; i >= 0; i--)
-            {
-				queueList[i + 1] = queueList[i];
-
-			}
-			queueList[0] = picked;
-		}
+        {   
+            T picked = queueList[queueList.Count - 1];
+            queueList.RemoveAt(queueList.Count - 1);
+            queueList.Insert(0, picked);
+        }
 
 
 	}
@@ -55,65 +36,64 @@ namespace RollingQueue1021
 		static void Main(string[] args)
 		{
 
-			String input = System.Console.ReadLine();
+			String input = System.Console.ReadLine();//10 3
 
 			int endNumber = Int32.Parse(input.Split(' ')[0]);// 1 ~ endNumber 까지의 숫자
 			int count = Int32.Parse(input.Split(' ')[1]);//몇개의 숫자를 뽑을 것인지
 
+			//System.Console.WriteLine(endNumber);//확인
+			//System.Console.WriteLine(count);//확인
+
+			int answerCount = 0;//답으로 도출할것이다.
+
 			QueueList<int> queue = new QueueList<int>();//큐 역할을 수행하는 리스트를 생성 -> 상속 클래스 생성
 
-			for (int i = 0; i < endNumber; i++)
-			{
-				queue.Add(i + 1);
-			}
+            for (int i = 0; i < endNumber; i++)
+            {
+                queue.Add(i + 1);
+            }
 
-			String[] findNums = System.Console.ReadLine().Split(' ');//찾을 숫자를 입력받는곳
+            String[] findNums = System.Console.ReadLine().Split(' ');//찾을 숫자를 입력받는곳
 
-			for (int i = 0; i < count; i++)
-			{
-				int pickNum = Int32.Parse(findNums[i]);//숫자
-				int queueLength = queue.Count;
-				int half = queueLength / 2;
-				int pointer = -1;//위치
+            for (int i = 0; i < count; i++)
+            {
+                int pickNum = Int32.Parse(findNums[i]);//숫자
+                Boolean flag = true;
 
-				//어느 위치에 있는지 확인
-				for (int j = 0; j < queueLength; j++)
-				{
+                while(flag)
+                {
+                    int queueLength = queue.Count;//큐의 길이
+                    int half = queueLength / 2;
+                    int pointer = -1;//위치
+                    //그냥 바로 찾는숫자가 앞에 있는 경우
+                    if (queue[0] == pickNum) { queue.RemoveAt(0); flag = false; }
+                    //찾는 숫자가 앞에 없는 경우
+                    else
+                    {
+                        
+                        //어느 위치에 있는지 확인
+                        for (int j = 0; j < queueLength; j++)
+                        {
+                            if (queue[j] == pickNum) { pointer = j; break; }
 
-					if (queue[j] == pickNum)
-					{
-						pointer = j;
-						break;
-					}
+                        }//for
 
-				}//for
+                        System.Console.WriteLine(pointer);
 
-				if (pointer > half)
-				{
-					Boolean flag = true;
+                        if (pointer > half) { queue.rightShift(); answerCount++; }
+                        else { queue.leftShift(); answerCount++; }//여기 문제
+                    }
 
-					while (flag)
-					{
-						//int num =
-
-					}
-
-				}
-				else
-				{
-
-				}
-
-
-			}//for
+                }
+            }//for
 
 
 
 
-			System.Console.WriteLine(endNumber);
-			System.Console.WriteLine(count);
-			System.Console.ReadLine();
+            System.Console.WriteLine(answerCount);
+            ////System.Console.WriteLine(count);
+            //System.Console.ReadLine();
 
-		}
+        }
 	}
 }
